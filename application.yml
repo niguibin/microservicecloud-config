@@ -8,8 +8,6 @@ spring:
   profiles: dev
   application:
     name: microservicecloud-config-vip-dev
-server: 
-  port: 7080
 ---
 spring: 
   profiles: test

@@ -8,8 +8,8 @@ server:
   port: 8201
 spring: 
   profiles: dev
-    application: 
-      name: microservicecloud-conifg-client
+  application: 
+    name: microservicecloud-conifg-client
 # 只是测试用，并不是真正的 Eureka 信息
 eureka: 
   client: 
@@ -20,8 +20,8 @@ server:
   port: 8202
 spring: 
   profiles: test
-    application: 
-      name: microservicecloud-conifg-client
+  application: 
+    name: microservicecloud-conifg-client
 eureka: 
   client: 
     server-url: 

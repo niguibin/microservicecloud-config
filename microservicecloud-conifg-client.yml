@@ -1,28 +1,28 @@
 spring: 
-	profiles: 
-		active: 
-			- dev
+  profiles: 
+    active: 
+      - dev
 			
 ---
 server: 
-	port: 8201
+  port: 8201
 spring: 
-	profiles: dev
-	application: 
-		name: microservicecloud-conifg-client
+  profiles: dev
+    application: 
+      name: microservicecloud-conifg-client
 # 只是测试用，并不是真正的 Eureka 信息
 eureka: 
-	client: 
-		server-url: 
-			defaultZone: http://eureka-dev.com:7001/eureka/
+  client: 
+    server-url: 
+      defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server: 
-	port: 8202
+  port: 8202
 spring: 
-	profiles: test
-	application: 
-		name: microservicecloud-conifg-client
+  profiles: test
+    application: 
+      name: microservicecloud-conifg-client
 eureka: 
-	client: 
-		server-url: 
-			defaultZone: http://eureka-test.com:7001/eureka/
+  client: 
+    server-url: 
+      defaultZone: http://eureka-test.com:7001/eureka/

@@ -6,7 +6,7 @@ spring:
 ---
 spring: 
   profiles: dev
-  application: 
+  application:
     name: microservicecloud-config-vip-dev
 ---
 spring: 
